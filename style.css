@@ -1,0 +1,42 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(120, 108, 202);
+}
+
+input,button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-left: 800px;
+}
+.text-styling {
+    margin:0;
+    cursor: pointer;
+}
+
+button{
+    width: 308px;
+    background-color:rgb(138, 206, 233);
+}
+
+button:hover {
+transition: 0.3s;
+background: darkcyan;
+}
+
+button:active{
+    transition: 0.3s;
+    background-color: greenyellow;
+}
+
+body{
+    background-size: 400px;
+    background-color: beige;
+}
